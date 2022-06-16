@@ -1,0 +1,41 @@
+	
+	<< MVC 패턴 >>
+		model view controller
+	
+	
+	클라이언트 요청 (request)	→	server (WAS-tomcat)	→	응답 (response)
+	
+	request	→	Controller : 일 처리		→	View (jsp)
+	
+	command → excuteQuery() → 상속 (오버라이딩)
+	
+	insert/select/update/delete
+	
+	Dao : DB Access	↔	Dto : DB객체		↔	클래스 연결 (DB테이블당 1)
+	
+	insertDo/selectDo/updateDo/deleteDo
+
+	
+	
+	
+	
+	웹(WWW - World Wide Wieb) -> 웹브라우저 -> 웹애플리케이션, 응용소프트웨어
+		
+		[클라이언트] request(요청) HTML CSS javascript
+			↓
+		[브라우저]
+			↓
+		[서버(서비스)] response(응답) back java servlet jsp thymeleat asp php ajax paging 커넥션풀
+						DBMS -> RDBMS (oracle, Mysql..)-> SQL
+			└ WAS(Web Application Server), web server(아파치), tomcat
+			
+			계정, 클라우드 서비스 AWS, -> EC2 (리눅스 명령어)
+			기본 명령어 -> 리눅스 명령어 
+			
+	
+	
+	
+	
+	
+	
+	
